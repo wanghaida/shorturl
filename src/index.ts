@@ -2,7 +2,7 @@ import * as bodyParser from 'body-parser';
 import * as dotenv from 'dotenv';
 import * as express from 'express';
 import * as mysql from 'mysql2';
-import { encode } from './utils/short-url';
+import { encode } from './short-url';
 
 // Types
 import type { OkPacket, RowDataPacket } from 'mysql2';
@@ -81,3 +81,5 @@ app.get('/:hash', (req, res) => {
 });
 
 app.listen(3000, () => console.log('Server running at http://localhost:3000'));
+
+export default app;
