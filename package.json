@@ -12,6 +12,7 @@
     "build": "npm run tsc",
     "dev": "tsc --watch & nodemon dist",
     "start": "node dist",
+    "test": "jest",
     "tsc": "tsc -p tsconfig.json"
   },
   "dependencies": {
@@ -23,6 +24,8 @@
   },
   "devDependencies": {
     "@types/express": "^4.17.17",
-    "@types/node": "^18.16.2"
+    "@types/node": "^18.16.2",
+    "axios": "^1.4.0",
+    "jest": "^29.5.0"
   }
 }

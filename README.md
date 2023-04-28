@@ -18,7 +18,8 @@ npm install
 
 ## 清单
 
--   [ ] 修改 `.env` 中的配置
+- [ ] 修改 `.env` 中的配置
+- [ ] 执行 `static/database.sql` 脚本
 
 ## 开发
 
